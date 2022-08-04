@@ -1,0 +1,24 @@
+shared
+db-sync
+.git
+vendor
+web/img
+*.sql
+*.zip
+*.rar
+local-config.php
+node_modules
+composer.lock
+npm-debug.log
+*/.DS_Store
+*/*/.DS_Store
+.DS_Store
+__MACOSX
+
+# Wordpress
+wp-config.php
+.htaccess
+!/wp-content/plugins/index.php
+/wp-content/plugins/*
+/wp-content/languages/*
+/wp-content/uploads/*
